@@ -38,8 +38,9 @@ print accuracy_score(y_test, y_pred)
 ```
 This tells the classifier to predict an output based on the test input. `accuracy_score(true_data, test_data)` will give you the ratio of correct versus incorrect data.
 
-You should get an accuracy of around 90%. Once you do, either go [here to implement KNearestNeighbors yourself](https://kevin-fang.github.io/ml-tutorials/ScrappyKNN/) or try some other classifiers. Here are some examples of other classifiers - everything else will work the exact same, you just have to change the clf variable:
+You should get an accuracy of around 90%. Once you do, either go [here to implement KNearestNeighbors yourself](https://kevin-fang.github.io/ml-tutorials/ScrappyKNN/) or try some other classifiers. Here are some examples of other classifiers - everything else will work the exact same, only the clf variable has to be changed:
 
+```python
 from sklearn.tree import DecisionTreeClasifier
 clf = DecisionTreeClassifier() # a decision tree classifier
 
@@ -51,3 +52,6 @@ clf = LinearRegression() # linear regression
 
 from sklearn.linear_model import SGDClassifier
 clf = SGDClassifier() # stochastic gradient descent classifier
+```
+
+Note that some of these will require more computing power and time than others. In addition, they may not be perfectly accurate until the **hyperparameters** are updated. For example, in the K-nearest-neighbors classifier, the number of neighbors is 5 by default, but if you run `clf = KNeighborsClassifier(n_neighbors=3)`, you may get better/worse results. If you want to learn more about hyperparameters, we can discuss further.
