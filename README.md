@@ -1,7 +1,7 @@
 # Machine Learning Notes
 
 ## What is the goal of machine learning?  
-We want a machine to solve problems without having to explicitly program.
+We want a machine to solve problems without having to explicitly program them, as it's often unreasonable to do.
 
 ## Two main types of machine learning
 ### Supervised Learning
