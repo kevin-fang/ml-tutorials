@@ -60,5 +60,5 @@ from sklearn.linear_model import SGDClassifier
 clf = SGDClassifier() # stochastic gradient descent classifier
 ```
 
-Note that some of these will require more computing power and time than others. In addition, they may not be perfectly accurate until the **hyperparameters** are updated. For example, in the K-nearest-neighbors classifier, the number of neighbors is 5 by default, but if you run `clf = KNeighborsClassifier(n_neighbors=2)`, you will get different results.
+Note that some of these will require more computing power and time than others. In addition, they may not be perfectly accurate until the **hyperparameters** are updated. For example, in the K-nearest-neighbors classifier, the number of neighbors is 5 by default, but if you run `clf = KNeighborsClassifier(n_neighbors=2)`, you will get different results.  
 There isn't much you can do to find the optimal hyperparameters besides brute-forcing the different combinations to find which value works best. If you want to learn more about hyperparameter optimization, look into `GridSearchCV`, `K-Fold Cross Validation`, and `RandomizedSearchCV`.
