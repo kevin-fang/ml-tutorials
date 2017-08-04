@@ -1,4 +1,10 @@
 # KNN Walkthrough
+Once you have scikit-learn, the basic procedure here will be:
+1. Partition data
+2. Create classifier
+3. Train classifier
+4. Fit
+5. Score
 
 First run `pip install numpy scipy sklearn` or `conda install numpy scipy scikit-learn` (if you have conda) to install the dependencies.
 
