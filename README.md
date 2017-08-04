@@ -21,11 +21,11 @@ We'll only be going over very high level machine learning libraries. This includ
 ---
 
 Some (simple) supervised machine learning algorithms include:
-* Decision Tree
+* Decision Trees
 * K-nearest neighbors
 * Linear/Logistic Regression
 
-Some more complicated ones include recurrent neural nets, stochastic gradient descent, random forest classifiers, etc.
+More complicated algorithms include recurrent neural nets, stochastic gradient descent, random forest classifiers, etc.
 
 We'll first use a K-nearest neighbors classifier in scikit-learn on sample data, the "black box approach", and then we'll look into the box by writing our own K-nearest-neighbors classifier.
 
