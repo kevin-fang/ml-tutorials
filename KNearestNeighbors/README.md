@@ -19,7 +19,7 @@ This imports and loads the "K Nearest Neighbors Classifier" and the sample datas
 clf = KNeighborsClassifier()
 #clf = KNeighborsClassifier(n_neighbors=4)
 ```
-In scikit-learn, all the classifiers are classes. This initializes the KNeighborsClassifier. You can specify parameters of the classifier in the parenthesis, like above in the commented line.
+In scikit-learn, all the classifiers are classes. This initializes the KNeighborsClassifier. You can specify parameters ("hyperparameters") of the classifier in the parenthesis, like above in the commented line.
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -40,4 +40,17 @@ print accuracy_score(y_test, y_pred)
 ```
 This tells the classifier to predict an output based on the test input. `accuracy_score(true_data, test_data)` will give you the ratio of correct versus incorrect data.
 
-You should get an accuracy of around 90%. Once you do, go [here](https://kevin-fang.github.io/ml-tutorials/ScrappyKNN/) to implement KNearestNeighbors yourself!
+You should get an accuracy of around 90%. Once you do, either go [here](https://kevin-fang.github.io/ml-tutorials/ScrappyKNN/) to implement KNearestNeighbors yourself or try some other classifiers. Here are some examples of other classifiers - everything else will work the exact same, you just have to change the `clf` variable:
+```python
+from sklearn.tree import DecisionTreeClasifier
+clf = DecisionTreeClassifier() # a decision tree classifier
+
+from sklearn.svm import SVC
+clf = SVC() # a support vector classifier
+
+from sklearn.linear_model import LinearRegression
+clf = LinearRegression() # linear regression
+
+from sklearn.linear_model import SGDClassifier
+clf = SGDClassifier() # stochastic gradient descent classifier
+```
