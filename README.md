@@ -6,7 +6,7 @@ In the field of machine learning, we want a machine to solve problems without ha
 ## Two main types of machine learning
 ### Supervised Learning
 
-We use supervised learning when we have a training set of inputs and their respective outputs, and want a computer to predict the output from a given input. Regression and Classification are examples of supervised learning
+We use supervised learning when we have a training set of inputs and their respective outputs, and want a computer to predict the output from a given input. Regression and Classification are examples of supervised learning and are generally easier to understand.
 
 ### Unsupervised Learning
 
@@ -20,9 +20,8 @@ Some (simple) supervised learning algorithms:
 * Decision Tree
 * K-nearest neighbors
 * Linear/Logistic Regression
-* Random Forest Classifiers
 
-Some more complicated ones include recurrent neural nets, stochastic gradient descent, etc.
+Some more complicated ones include recurrent neural nets, stochastic gradient descent, random forest classifiers, etc.
 
 We'll first use a K-nearest neighbors classifier in scikit-learn on sample data, and then we'll write our own.
 
