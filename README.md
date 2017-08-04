@@ -24,3 +24,5 @@ Some (simple) supervised learning algorithms:
 Some more complicated ones include recurrent neural nets, stochastic gradient descent, etc.
 
 We'll first use a K-nearest neighbors classifier in scikit-learn on sample data, and then we'll write our own.
+
+First, go [here](https://kevin-fang.github.io/ml-tutorials/KNearestNeighbors/) for the scikit-learn implementation. Then, go [here](https://kevin-fang.github.io/ml-tutorials/ScrappyKNN/) to implement KNearestNeighbors yourself!

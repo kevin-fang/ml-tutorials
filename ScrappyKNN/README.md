@@ -8,7 +8,8 @@ from scipy.spatial import distance
 def euc(a, b):
     return distance.euclidean(a, b)
 ```
-This function simply returns the euclidean distance between two points on a graph: sqrt((x<sub>1</sub>-x<sub>2</sub>)<sup>2</sup>-(y<sub>1</sub>-y<sub>2</sub>)<sup>2</sup>).
+This function simply returns the euclidean distance between two points on a graph:   
+sqrt((x<sub>1</sub>-x<sub>2</sub>)<sup>2</sup>-(y<sub>1</sub>-y<sub>2</sub>)<sup>2</sup>).
 
 ```python
 class ScrappyKNN(): # we want to create a class for our classifier here.

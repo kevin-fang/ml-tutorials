@@ -2,6 +2,8 @@
 
 First run `pip install numpy scipy sklearn` to install the dependencies.
 
+Note: this code is taken from the Google Machine Learning tutorial
+
 Line by line analysis:
 ```python
 from sklearn.neighbors import KNeighborsClassifier
@@ -37,3 +39,5 @@ y_pred = clf.predict(X_test)
 print accuracy_score(y_test, y_pred)
 ```
 This tells the classifier to predict an output based on the test input. `accuracy_score(true_data, test_data)` will give you the ratio of correct versus incorrect data.
+
+You should get an accuracy of around 90%. Once you do, go [here](https://kevin-fang.github.io/ml-tutorials/ScrappyKNN/) to implement KNearestNeighbors yourself!
