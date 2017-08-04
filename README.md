@@ -13,7 +13,9 @@ We use supervised learning when we have a training set of inputs and their respe
 You have only a set of inputs and want a computer to recognize patterns in your data. For example, if you have a bunch of news articles and want to cluster them into groups, PCA, or SVD (singular value decomposition).
 
 We'll only be going over very high level machine learning libraries. This includes scikit-learn and Keras.
+
 ---
+
 Some (simple) supervised learning algorithms:
 * Decision Tree
 * K-nearest neighbors
