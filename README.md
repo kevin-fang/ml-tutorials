@@ -25,4 +25,4 @@ Some more complicated ones include recurrent neural nets, stochastic gradient de
 
 We'll first use a K-nearest neighbors classifier in scikit-learn on sample data, and then we'll write our own.
 
-First, proceed [here](https://kevin-fang.github.io/ml-tutorials/KNearestNeighbors/) for a simple scikit-learn instance of machine learning. Then, visit [here](https://kevin-fang.github.io/ml-tutorials/ScrappyKNN/) to implement KNearestNeighbors yourself!
+First, proceed [here for a simple scikit-learn instance](https://kevin-fang.github.io/ml-tutorials/KNearestNeighbors/) for a simple scikit-learn instance of machine learning. Then, visit [here to implement KNN yourself!](https://kevin-fang.github.io/ml-tutorials/ScrappyKNN/).
