@@ -17,7 +17,7 @@ This imports and loads the "K Nearest Neighbors Classifier" and the sample datas
 clf = KNeighborsClassifier()
 #clf = KNeighborsClassifier(n_neighbors=4)
 ```
-In scikit-learn, all the classifiers are classes. This initializes the KNeighborsClassifier. You can specify parameters of the classifier in the parenthesis, like above in the commented line.
+In scikit-learn, all the classifiers are classes. The code above initializes the KNeighborsClassifier; you can specify parameters of the classifier in the parenthesis, (see commented line.)
 
 ```python
 from sklearn.model_selection import train_test_split
