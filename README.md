@@ -1,7 +1,7 @@
 ## What is machine learning?  
 In the field of machine learning, we want a machine to solve problems without having to explicitly program them to.
 
-This is accomplished by getting a machine to "learn" a pattern; while we don't explicitly instruct the computer how to solve the problem, we do instruct the computer in how to recognize patterns using **machine learning algorithms.**
+This is accomplished by getting a computer to "learn" a pattern; while we don't explicitly instruct the computer how to solve the problem, we do instruct the computer in how to recognize patterns using **machine learning algorithms.**
 
 Most machine learning algorithms have been thoroughly abstracted into black boxes, so to get started, all we need to learn is how to *use* the black boxes, without having to know the specifics of the math.
 
@@ -23,7 +23,7 @@ Some (simple) supervised machine learning algorithms include:
 * K-nearest neighbors
 * Linear/Logistic Regression
 
-More complicated algorithms include recurrent neural nets, stochastic gradient descent, random forest classifiers, etc.
+More complicated algorithms include **recurrent neural nets**, **stochastic gradient descent**, **random forest classifiers**, etc.
 
 We'll first use a K-nearest neighbors classifier in scikit-learn on sample data, the "black box approach", and then we'll look into the box by writing our own K-nearest-neighbors classifier.
 
