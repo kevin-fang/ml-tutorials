@@ -1,5 +1,3 @@
-# Machine Learning Notes
-
 ## What is machine learning?  
 In the field of machine learning, we want a machine to solve problems without having to explicitly program them to.
 
