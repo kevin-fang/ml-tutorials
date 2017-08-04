@@ -3,7 +3,7 @@
 ## What is machine learning?  
 In the field of machine learning, we want a machine to solve problems without having to explicitly program them to.
 
-This is accomplished by getting a machine to "learn" a pattern. So while we don't explicitly instruct the computer how to solve the problem, we do instruct the computer in how to recognize patterns. These are **machine learning algorithms.**
+This is accomplished by getting a machine to "learn" a pattern. So while we don't explicitly instruct the computer how to solve the problem, we do instruct the computer in how to recognize patterns using **machine learning algorithms.**
 
 Most machine learning algorithms have been thoroughly abstracted into black boxes, so to get started, all we need to learn is how to *use* the black boxes, without having to know the specifics of the math.
 
@@ -20,7 +20,7 @@ We'll only be going over very high level machine learning libraries. This includ
 
 ---
 
-Some (simple) supervised learning algorithms include:
+Some (simple) supervised machine learning algorithms include:
 * Decision Tree
 * K-nearest neighbors
 * Linear/Logistic Regression
