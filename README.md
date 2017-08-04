@@ -3,6 +3,10 @@
 ## What is machine learning?  
 In the field of machine learning, we want a machine to solve problems without having to explicitly program them to.
 
+This is accomplished by getting a machine to "learn" a pattern. So while we don't explicitly instruct the computer how to solve the problem, we do instruct the computer in how to recognize patterns. These are **machine learning algorithms.**
+
+Most machine learning algorithms have been thoroughly abstracted into black boxes, so to get started, all we need to learn is how to *use* the black boxes, without having to know the specifics of the math.
+
 ## Two main types of machine learning
 ### Supervised Learning
 
@@ -23,6 +27,6 @@ Some (simple) supervised learning algorithms:
 
 Some more complicated ones include recurrent neural nets, stochastic gradient descent, random forest classifiers, etc.
 
-We'll first use a K-nearest neighbors classifier in scikit-learn on sample data, and then we'll write our own. Note that you should first have a basic understanding of the Python programming language before continuing.
+We'll first use a K-nearest neighbors classifier in scikit-learn on sample data, and then we'll write our own.
 
-First, proceed [here for a simple scikit-learn instance](https://kevin-fang.github.io/ml-tutorials/KNearestNeighbors/) of KNearestNeighbors. Then, visit [here to implement KNN yourself!](https://kevin-fang.github.io/ml-tutorials/ScrappyKNN/).
+First, proceed [here for a simple scikit-learn instance](https://kevin-fang.github.io/ml-tutorials/KNearestNeighbors/) for a simple scikit-learn instance of machine learning. Then, visit [here to implement KNN yourself!](https://kevin-fang.github.io/ml-tutorials/ScrappyKNN/).
