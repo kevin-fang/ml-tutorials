@@ -24,7 +24,7 @@ from sklearn.model_selection import train_test_split
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.2)
 ```
-You generally don't want to train a classifier on all your data, so we use a "train-test-split" to split our data into a training set and a testing set.   
+You generally don't want to train a classifier on all your data because it leaves one susceptible to "overfitting," so we use a "train-test-split" to split our data into a training set and a testing set.   
 The `test_size` parameter tells the classifier the ratio of training data to testing data. `0.2` means that 20% of the data will be marked as testing data and 80% will be training data.
 
 ```python
