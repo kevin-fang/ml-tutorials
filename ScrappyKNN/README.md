@@ -46,4 +46,4 @@ Depending on your data size and the complexity of the classifier, `fit()` can ta
 ```
 Relatively simple `predict()` function. It simply calls `closest` on the training data, looking for the nearest values and returning them. 
 
-The code after is an exact copy from `knn.py`.
+The code after is an exact copy from `knn.py`. [Click here to return to the main screen](https://kevin-fang.github.io/ml-tutorials).
