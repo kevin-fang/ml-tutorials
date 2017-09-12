@@ -21,7 +21,7 @@ We want to create a class for our classifier here.
         self.y_train = y_train
 ```
 This is where we usually do the training; since KNN is very simple, we don't have to do any complex math, so this function is very simple in that we just store the inputs here. Some other classifiers such as SGD may use differential equations to optimize a function.
-Depending on your data size and the complexity of the classifier, `fit()` can take a fraction of a second to several hours. For example, when you create a deep neural network, `fit` take several hours.
+Depending on your data size and the complexity of the classifier, `fit()` can take a fraction of a second to several hours. When you create a deep neural network with lots of data, `fit` can take from several hours to even days or weeks.
 
 ```python
     def closest(self, row):
